@@ -4,9 +4,9 @@ metadata:
   creationTimestamp: null
   labels:
     app: vote
+    tier: front
   name: vote
 spec:
-  minReadySeconds: 20
   replicas: 3
   template:
     spec:
